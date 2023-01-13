@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/all.css">
+    
+    
+    <title style="color: rgb(18, 139, 232);" >Add Customer </title>
+</head>
+<body>
+ <header>
+    <h2 class="header-title">سجل الزبائن</h2>
+    
+    
+        <ul class="header2" id="ul1">
+            <li class="li3"  id="li1" ><img src="/img/logo.jpg" width="50px" height="50px"  ></li>
+           <li class="li3"><a  class=""  href="home.html" >Home</a></li>
+           <li class="li3"><a class=""  href="Customer.html" >Add Customer</a></li>
+           <li class="li3"><a class="" href="home.html" >Contact us</a></li>
+           <li class="li3"><a class="" href="home.html" >About us</a></li>
+        </ul>
+    
+    
+ </header>
+
+
+
+ 
+
+ <div class="fixed-menu">
+    <i class="glyphicon glyphicon-cog  gear "></i>
+    <h3>Admin info</h3>
+    <img src="/img/admin/IMG_٢٠٢٢١١٠٤_١٤١٨٠١.jpg"  width="250px" height="220px" >
+    <h3>Admin Name</h3>
+   <h3 style="color: rgb(41, 245, 245);"> Hussam Mohammed Al Shaikh Deap</h3>
+   <h3>Admin Id</h3>
+   <h3 style="color: rgb(41, 245, 245);"> 1301203614</h3>
+    <h2 id="time"></h2>
+</div>
+
+ <section>
+    <button type="button" class="button blue mobile" id="RegisterClient"  >إضافة زبون جديد</button>
+    <button type="button" class="button red" id="DeleteAllElement">حذف الكل</button>
+    <table id="tableClient" class="records">
+<thead>
+    <tr>
+        <th>الرقم</th>
+        <th>الإسم</th>
+        <th>البريد الإلكتروني</th>
+        <th>رقم الجوال</th>
+        <th>المدينة</th>
+        <th>تعديل-حذف</th>
+    </tr>
+</thead>
+<tbody>
+
+</tbody>
+
+    </table>
+    <div class="model" id="model">
+        <div class="model-content">
+<header class="model-header">
+<h2>زبون جديد</h2>
+<div class="model-close" id="model-close">&#10006;</div>
+</header>
+<form id="form" class="model-form">
+    <input type="number" id="id" data-index1="new"  data-hussam="test"  class="model-field" placeholder="رقم الزبون" required value="200">
+    <input type="text" id="name"  class="model-field" placeholder="اسم الزبون" required value="husam">
+    <input type="email" id="email"  class="model-field" placeholder="بريدإلكتروني"required value="hosamking@gmail.com">
+    <input type="text" id="mobile"  class="model-field" placeholder="رقم الجوال"required value="0597485938">
+    <select name="city" id="city" class="model-field">
+
+    <optgroup label="المحافظات الجنوبية">
+<option value="غزة">غزة</option>
+<option value="الوسطى">الوسطى</option>
+<option value="خان يونس">خان يونس</option>
+<option value="رفح">رفح</option>
+ 
+</optgroup>
+<optgroup label="المحافظات الشمالية">
+    <option value="رام الله">رام الله</option>
+    <option value="نابلس">نابلس</option>
+    <option value=" القدس">القدس </option>
+    <option value="بيت لحم">بيت لحم</option>
+</optgroup>
+</select>
+</form>
+<footer class="model-footer">
+<button id="save" class="button green">حفظ</button>
+<button id="clear" class="button blue">مسح</button>
+<button id="cancel" class="button blue">إلغاء</button></footer>
+        </div>
+    </div>
+ </section> 
+ <footer style="border:solid rgb(252, 241, 21) 3px;">
+All CopyWrite is for  <span style="color: rgb(122, 41, 244);">Hussam2002@gmail.com</span>
+ </footer> 
+ 
+ 
+ </div>
+ <script src="js/jquery-3.6.1.min_2.js"></script>
+ <script src="js/all.js"></script>
+ <script src="js/java.js"></script>
+</body>
+</html>
+

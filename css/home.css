@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    }
+
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+background-color:lightgrey;
+    position: relative;
+    margin: auto;
+    flex-wrap: wrap;
+} 
+
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+text-shadow: 4px 4px #fff ;
+
+
+}
